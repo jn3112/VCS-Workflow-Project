@@ -4,13 +4,15 @@ using namespace std;
 
 int main()
 {
-  char first, middle, last;
+  string Name, Address, PhoneNumber;
 
-  first= 'K';
+  Name= "Kate";
   // my preferred name is Kate
-  middle= 'B';
-  last= 'N';
+  Address= "123 Real Street";
+  PhoneNumber= "123-286-2316";
 
-  cout << first << middle << last;
+  cout << Name << endl;
+  cout << Address << endl;
+  cout << PhoneNumber << endl;
   return 0;
 }
